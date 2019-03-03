@@ -1,0 +1,25 @@
+body {
+	background-color: yellow;
+
+}
+
+#images {
+	text-align:center;
+	margin-top: 75px;
+}
+.img {
+	display: initial;
+	align-self: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	-webkit-transition:display 2s;
+	transition: display 2s;
+}
+
+.img hover {
+	display:none;
+}
+
+#rev {
+	display:none;
+}

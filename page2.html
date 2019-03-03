@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+	<title>Guess the Number!</title>
+	<link rel="stylesheet" type="text/css" href="css/page2.css">
+	<script src="js/page2.js"></script>
+</head>
+<body>
+	<h1 style="text-align: center;margin-top: 100px; color:grey">Can you guess the random?!</h1>
+
+	<div id="images">
+		<img class="ima" id="1img" style="width:200px; height:200px"src="imgs/1.png" alt="1st"onclick="chosen(this)">
+		<img class="ima" id="2img" style="width:200px; height:200px"src="imgs/2.png" alt="2nd" onclick="chosen(this)">
+		<img class="ima" id="3img" style="width:200px; height:200px"src="imgs/3.png" alt="3rd" onclick="chosen(this)" >
+		<img class="ima" id="4img" style="width:200px; height:200px"src="imgs/4.png" alt="4th" onclick="chosen(this)">
+		<h2 id="result"></h2>
+		<button onclick="revert(this)" id="rev">Go Back?</button>
+</body>
