@@ -10,7 +10,7 @@ function chosen(x) {
 		if(k == l)
 			document.getElementById("result").innerHTML = "You are lucky ! ";
 		else
-			document.getElementById("result").innerHTML = "Unlucky :( Number is:  "+l;
+			document.getElementById("result").innerHTML = "Unlucky :( Number is:  "+ls;
 		document.getElementById("rev").style.display ="initial";
 
 
